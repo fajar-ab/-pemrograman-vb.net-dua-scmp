@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VISUAL BASIC\\VB DOT NET - SCMP\\pertemuan-02\\pertemuan-02\\pertemuan-02.vbproj": {}
+    "D:\\VISUAL BASIC\\pemrograman-vb.net-dua-scmp\\pertemuan-02\\pertemuan-02\\pertemuan-02.vbproj": {}
   },
   "projects": {
-    "D:\\VISUAL BASIC\\VB DOT NET - SCMP\\pertemuan-02\\pertemuan-02\\pertemuan-02.vbproj": {
+    "D:\\VISUAL BASIC\\pemrograman-vb.net-dua-scmp\\pertemuan-02\\pertemuan-02\\pertemuan-02.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VISUAL BASIC\\VB DOT NET - SCMP\\pertemuan-02\\pertemuan-02\\pertemuan-02.vbproj",
+        "projectUniqueName": "D:\\VISUAL BASIC\\pemrograman-vb.net-dua-scmp\\pertemuan-02\\pertemuan-02\\pertemuan-02.vbproj",
         "projectName": "pertemuan-02",
-        "projectPath": "D:\\VISUAL BASIC\\VB DOT NET - SCMP\\pertemuan-02\\pertemuan-02\\pertemuan-02.vbproj",
+        "projectPath": "D:\\VISUAL BASIC\\pemrograman-vb.net-dua-scmp\\pertemuan-02\\pertemuan-02\\pertemuan-02.vbproj",
         "packagesPath": "C:\\Users\\wahyudin\\.nuget\\packages\\",
-        "outputPath": "D:\\VISUAL BASIC\\VB DOT NET - SCMP\\pertemuan-02\\pertemuan-02\\obj\\",
+        "outputPath": "D:\\VISUAL BASIC\\pemrograman-vb.net-dua-scmp\\pertemuan-02\\pertemuan-02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wahyudin\\AppData\\Roaming\\NuGet\\NuGet.Config",

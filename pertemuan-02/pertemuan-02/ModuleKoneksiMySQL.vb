@@ -21,7 +21,7 @@ Module ModuleKoneksiMySQL
             End If
 
         Catch ex As Exception
-            MessageBox.Show(ex.Message)
+            MessageBox.Show(ex.Message, "Koneksi ke Database Gagal", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
 
     End Sub

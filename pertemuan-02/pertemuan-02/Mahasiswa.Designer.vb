@@ -122,6 +122,7 @@ Partial Class Mahasiswa
         '
         'hapus
         '
+        Me.hapus.Cursor = System.Windows.Forms.Cursors.Hand
         Me.hapus.Location = New System.Drawing.Point(13, 86)
         Me.hapus.Name = "hapus"
         Me.hapus.Size = New System.Drawing.Size(159, 23)
@@ -131,6 +132,7 @@ Partial Class Mahasiswa
         '
         'ubah
         '
+        Me.ubah.Cursor = System.Windows.Forms.Cursors.Hand
         Me.ubah.Location = New System.Drawing.Point(13, 54)
         Me.ubah.Name = "ubah"
         Me.ubah.Size = New System.Drawing.Size(159, 23)
@@ -140,6 +142,7 @@ Partial Class Mahasiswa
         '
         'simpan
         '
+        Me.simpan.Cursor = System.Windows.Forms.Cursors.Hand
         Me.simpan.Location = New System.Drawing.Point(13, 22)
         Me.simpan.Name = "simpan"
         Me.simpan.Size = New System.Drawing.Size(159, 23)

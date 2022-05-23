@@ -68,15 +68,17 @@ Public Class Mahasiswa
 
             str = $"INSERT INTO tb_mahasiswa VALUES ('{nim.Text}', '{namaCapital()}', '{jenisKelamin.Text}')"
             cmd = New MySqlCommand(str, conn)
-            cmd.ExecuteNonQuery()
+            If cmd.ExecuteNonQuery() Then
+                MessageBox.Show("Insert Data Mahasiswa Berhasil Dilakukan")
+            Else
+                Throw New System.Exception()
+            End If
 
             Call clear()
-
-            MessageBox.Show("Insert Data Mahasiswa Berhasil Dilakukan")
             Call loadTable()
 
         Catch ex As Exception
-            MessageBox.Show("Insert Data Mahasiswa Gagal Dilakukan")
+            MessageBox.Show("Insert Data Mahasiswa Gagal Dilakukan", "Pesan", MessageBoxButtons.OK, MessageBoxIcon.Warning)
         End Try
 
     End Sub
@@ -99,15 +101,17 @@ Public Class Mahasiswa
 
             str = $"UPDATE tb_mahasiswa set nama = '{namaCapital()}', jenis_kelamin = '{jenisKelamin.Text}' WHERE nim = '{nim.Text}'"
             cmd = New MySqlCommand(str, conn)
-            cmd.ExecuteNonQuery()
+            If cmd.ExecuteNonQuery() Then
+                MessageBox.Show("Update Data Mahasiswa Berhasil Dilakukan")
+            Else
+                Throw New System.Exception()
+            End If
 
             Call clear()
-
-            MessageBox.Show("Update Data Mahasiswa Berhasil Dilakukan")
             Call loadTable()
 
         Catch ex As Exception
-            MessageBox.Show("Update Data Mahasiswa Gagal Dilakukan")
+            MessageBox.Show("Update Data Mahasiswa Gagal Dilakukan", "Pesan", MessageBoxButtons.OK, MessageBoxIcon.Warning)
         End Try
 
     End Sub
@@ -132,7 +136,7 @@ Public Class Mahasiswa
             Call loadTable()
 
         Catch ex As Exception
-            MessageBox.Show("Data Mahasiswa Gagal Dihapus")
+            MessageBox.Show("Data Mahasiswa Gagal Dihapus", "Pesan", MessageBoxButtons.OK, MessageBoxIcon.Warning)
         End Try
 
     End Sub
