@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pJyUoEHZdREGS/GU+XISIdWtLLG/dez/B8HaIhX5sDDxNSiUpafhT9FsBn2GBLn+40OfEfXV3J7bObJp0quLbg==",
+  "dgSpecHash": "YAfnNidOMr7+j6+3qFrRdE+trP9AjWSNxYTJBWZb52D3SVB5suTfPnOvHLnF+utZG1YGReOXBl8uE9U6P0wfYg==",
   "success": true,
-  "projectFilePath": "D:\\VISUAL BASIC\\pemrograman-vb.net-dua-scmp\\pemrograman-vb.net-dua-scmp\\pemrograman-vb.net-dua-scmp\\pertemuan-02\\pertemuan-02\\pertemuan-02.vbproj",
+  "projectFilePath": "D:\\VISUAL BASIC\\pemrograman-vb.net-dua-scmp\\pertemuan-02\\pertemuan-02\\pertemuan-02.vbproj",
   "expectedPackageFiles": [
     "C:\\Users\\wahyudin\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\wahyudin\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
