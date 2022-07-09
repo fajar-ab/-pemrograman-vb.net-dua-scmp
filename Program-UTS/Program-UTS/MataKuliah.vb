@@ -1,6 +1,9 @@
 ﻿Imports MySql.Data.MySqlClient
 
 Public Class MataKuliah
+    Private Sub Settings_Load(sender As Object, e As EventArgs) Handles Me.Load
+        Me.CenterToParent()
+    End Sub
 
     Private Sub MataKuliah_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Call loadTable()

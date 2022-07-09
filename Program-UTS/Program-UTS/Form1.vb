@@ -1,6 +1,10 @@
 ﻿Imports MySql.Data.MySqlClient
 
 Public Class Form1
+    Private Sub Settings_Load(sender As Object, e As EventArgs) Handles Me.Load
+        Me.CenterToParent()
+    End Sub
+
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Call loadTable()
         Call comboBoxMataKuliah()
